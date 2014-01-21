@@ -1,0 +1,42 @@
+table.commerce-order-customer-information td {
+  vertical-align: top;
+}
+
+@media print {
+  body {
+    padding-top: 10px !important;
+  }
+  .page-admin-commerce-orders-view .region-page-top,
+  .page-admin-commerce-orders-view #toolbar,
+  .page-admin-commerce-orders-view #branding {
+    display: none;
+  }
+  .page-admin-commerce-orders-view table {
+    width: 100%;
+  }
+  .page-admin-commerce-orders-view table th {
+    text-transform: uppercase;
+    background: #e1e2dc;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bebfb9;
+    padding: 3px 10px;
+  }
+  .page-admin-commerce-orders-view table td, table th {
+    vertical-align: middle;
+    padding: 8px 10px;
+    border: 0;
+    color: #000;
+  }
+
+  .commerce-order-ui-improved {
+    max-width: 95%;
+  }
+  .commerce-order-ui-improved table {
+    width: 100%;
+  }
+  .view-commerce-message-messages .view-footer {
+    display: none;
+  }
+}
